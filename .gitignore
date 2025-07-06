@@ -3,3 +3,37 @@
 /desafios/
 /imgs/
 README.md
+
+# Diretórios do Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Arquivos de estado
+*.tfstate
+*.tfstate.backup
+
+# Plans e logs temporários
+*.tfplan
+*.log
+
+# Chaves SSH ou PEM
+*.pem
+*.key
+*.pub
+
+# Arquivos de variáveis pessoais
+terraform.tfvars
+terraform.tfvars.json
+
+# Diretórios do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de swap
+*.swp
+*.swo
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
