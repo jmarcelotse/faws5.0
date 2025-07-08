@@ -1,6 +1,7 @@
 # faws5.0
 ## Rodar a BIA local
 ### Dentro do diretorio
+https://github.com/henrylle/bia.git
 ```
 docker compose up -d
 ```
